@@ -46,17 +46,26 @@ https://public.tableau.com/app/profile/neekhil.kumar.singh/viz/olympics_17778310
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
+```bash
 Olympics-Data-Analysis/
 │
 ├── data/
-│ └── dataset.csv
+│   ├── olympics_cleaned.csv      # Cleaned Olympic dataset
+│   └── city_loc.csv              # City location dataset for map visualization
+│
 ├── dashboard/
-│ └── olympics_dashboard.twbx
+│   └── olympics_dashboard.twbx   # Tableau packaged dashboard (final project)
+│
 ├── images/
-│ └── preview.png
-└── README.md
+│   ├── overall_dashboard.png     # Overall analysis view
+│   ├── eda_dashboard.png         # EDA insights view
+│   └── country_dashboard.png     # Country-wise analysis view
+│
+└── README.md                     # Project documentation
+```
+
 
 
 ---
